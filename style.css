@@ -1,0 +1,590 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.9rem 2.4rem;
+  margin-bottom: 9.8rem;
+}
+
+.header-logo {
+  height: 2.4rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #07043b;
+  font-size: 1.2rem;
+}
+
+.section-hero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2.4rem;
+}
+
+.heading-primary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  width: 32rem;
+}
+
+.heading-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  width: 29.6rem;
+}
+
+.btn {
+  width: 30.4rem;
+  height: 4rem;
+  background-color: #2f65f8;
+  border: 3px solid #2f65f8;
+  border-radius: 3.125px;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  margin-bottom: 18.3rem;
+}
+
+.email {
+  width: 30.4rem;
+  height: 4rem;
+  border: 0.13px solid #07043b;
+  border-radius: 3.13px;
+  margin-bottom: 1.6rem;
+}
+input::placeholder {
+  font-size: 1.2rem;
+  padding-left: 2.1rem;
+  color: #c2c2c2;
+}
+.btn-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.how-fylo-works {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f8fe;
+}
+
+.hero-img2 {
+  width: 32rem;
+  height: 24.1rem;
+  margin-bottom: 8.7rem;
+}
+
+.heading-secondary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+.fylo-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #615f7e;
+  width: 32rem;
+  margin-bottom: 3.6rem;
+}
+
+.text1 {
+  margin-bottom: 1.6rem;
+}
+
+.how-works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.how {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #3da08f;
+}
+.see-how-works {
+  display: flex;
+  align-items: center;
+  gap: 0.482rem;
+}
+.border {
+  width: 13rem;
+  height: 0.1rem;
+  background-color: #3da08f;
+  margin-bottom: 4rem;
+}
+
+.quote-container {
+  width: 28rem;
+  height: 17rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+  border-radius: 3.93258px;
+  padding: 2rem 2.596rem;
+  text-align: left;
+  margin-left: 2.404rem;
+  margin-bottom: 8.19rem;
+}
+
+.founder-quote {
+  font-family: "Open Sans", sans-serif;
+  width: 22.5rem;
+  font-size: 1rem;
+  line-height: 1.809rem;
+  margin-bottom: 1.2rem;
+}
+
+.fylo-founder {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2.4rem 1fr;
+  column-gap: 0.746rem;
+  row-gap: 0.18rem;
+}
+.avatar {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  grid-row: 1 / span 2;
+}
+
+.founder-name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  color: #07043b;
+}
+
+.owner {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.3px;
+  color: #07043b;
+  grid-column: -2 /-1;
+}
+
+.sign-up-box {
+  width: 100%;
+  background-color: #575988;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 5.4rem;
+  margin-bottom: 1.6rem;
+}
+.sign-up-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  width: 28rem;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 2.4rem;
+}
+
+.email--sign-up::placeholder {
+  padding: 0.8rem;
+}
+.btn--secondary,
+.email--sign-up {
+  width: 24rem;
+  height: 3.2rem;
+}
+.btn-text--secondary {
+  font-size: 1rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: #07043b;
+  color: #ffffff;
+  padding: 0 3.9rem;
+  margin: 0 auto;
+}
+.footer-logo {
+  width: 10.5rem;
+  height: 3rem;
+  mix-blend-mode: overlay;
+  margin-top: 6.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.phone-number {
+  margin-bottom: 2rem;
+}
+.email-example {
+  margin-bottom: 3.6rem;
+}
+
+.phone-number,
+.email-example {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.6rem;
+}
+.footer-nav-list,
+.social-links {
+  list-style: none;
+}
+.footer-nav-list1 {
+  margin-bottom: 3.2rem;
+}
+.footer-nav-list1,
+.footer-nav-list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.footer-nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+.social-links {
+  display: flex;
+  gap: 1.082rem;
+  margin-top: 3.2rem;
+  justify-content: center;
+}
+.fa {
+  padding-bottom: 4.2rem;
+}
+
+.fa,
+.footer-logo {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(219deg)
+    brightness(102%) contrast(104%);
+}
+.footer-logo {
+  mix-blend-mode: normal;
+}
+
+/* 768px */
+@media (min-width: 48em) {
+  .section-hero {
+    grid-template-columns: 1fr 1fr;
+    align-items: unset;
+  }
+  .text-box {
+    grid-row: 1/2;
+    gap: 2rem;
+    text-align: left;
+    align-items: baseline;
+    padding: 0 3rem;
+  }
+  .heading-primary {
+    font-size: 2.8rem;
+    width: 30rem;
+  }
+  .btn--primary {
+    margin-bottom: 14rem;
+  }
+
+  .how-fylo-works {
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-container {
+    grid-row: 1/2;
+    text-align: left;
+    padding: 0 3rem;
+  }
+
+  .heading-secondary {
+    font-family: "Raleway", sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .fylo-description {
+    margin-bottom: 2rem;
+  }
+  .how-works {
+    align-items: baseline;
+  }
+  .hero-img-illustration {
+    grid-row: span 2;
+  }
+  .sign-up-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-box2 {
+    text-align: left;
+    padding: 0 3rem;
+  }
+  .sign-up-description {
+    margin: 0;
+  }
+  .cta--sign-up {
+    padding-top: 5.2rem;
+  }
+  .btn--secondary {
+    margin-bottom: 10rem;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 3rem;
+    column-gap: 3rem;
+  }
+  .footer-nav-list {
+    display: flex;
+    gap: 6rem;
+    margin-top: 17rem;
+  }
+  .grid-1 {
+    margin-top: 3.2rem;
+  }
+  .social-links {
+    margin: 0;
+  }
+  .fa {
+    margin-top: 17rem;
+  }
+  .footer-logo {
+    width: 14.5rem;
+    height: 3.9rem;
+  }
+}
+
+/* 1216px */
+@media (min-width: 90em) {
+  .header {
+    padding: 6.6rem 8rem;
+  }
+  .section-hero {
+    gap: 1.3rem;
+    margin-bottom: 16.4rem;
+    padding: 0 8rem;
+  }
+  .text-box {
+    gap: 1.5rem;
+    padding: 10rem 0;
+  }
+  .heading-primary {
+    font-size: 4rem;
+    line-height: 6rem;
+    width: 62.7rem;
+  }
+  .heading-description {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.53px;
+    width: 58.5rem;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: 1rem;
+    height: 4.5rem;
+  }
+  .email {
+    width: 32rem;
+  }
+  .btn--primary {
+    width: 20rem;
+  }
+  .email--sign-up1 {
+    font-size: 1.4rem;
+  }
+  .how-fylo-works {
+    column-gap: 9rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    text-align: left;
+  }
+
+  .heading-secondary {
+    font-size: 4rem;
+    margin-bottom: 3.8rem;
+    width: 65.8rem;
+  }
+  .fylo-description {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #07043b;
+    width: 52.9rem;
+    margin-bottom: 1.5rem;
+  }
+  .how-works {
+    align-items: baseline;
+  }
+  .how {
+    font-size: 1.6rem;
+  }
+  .border {
+    margin-bottom: 4.5rem;
+    width: 16.6rem;
+  }
+  .quote-container {
+    margin-left: 0;
+    padding: 3rem 3rem;
+  }
+  .text-container {
+    margin-top: 8rem;
+    padding: 0;
+  }
+  .hero-img2 {
+    width: 54.2rem;
+    height: 40.9rem;
+  }
+  .quote-container {
+    width: 35.6rem;
+    height: 21.5rem;
+    border-radius: 5px;
+    margin-bottom: 10.7rem;
+  }
+  .fylo-founder {
+    row-gap: 0rem;
+    column-gap: 0.8rem;
+  }
+  .founder-quote {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.5px;
+    width: 28.9rem;
+    margin-bottom: 1.6rem;
+  }
+  .founder-name {
+    font-size: 1.1rem;
+    line-height: 1.498rem;
+    letter-spacing: 0.55px;
+  }
+  .owner {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.36px;
+  }
+
+  .sign-up-box {
+    text-align: left;
+    column-gap: 12rem;
+  }
+
+  .text-box2 {
+    padding: 10rem 0rem 8.5rem 8rem;
+  }
+  .heading-tertiary {
+    font-size: 3.2rem;
+    padding: 0;
+  }
+  .sign-up-description {
+    font-size: 1.6rem;
+    width: 53.3rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.5px;
+  }
+
+  .cta--sign-up {
+    padding-top: 11.2rem;
+  }
+  .email--sign-up {
+    width: 48rem;
+    height: 4.8rem;
+    font-size: 1.2rem;
+  }
+  .btn--secondary {
+    width: 20rem;
+    height: 4.8rem;
+    margin: 0;
+  }
+  .btn-text--secondary {
+    font-size: 1.4rem;
+  }
+  .footer {
+    padding: 0 8rem;
+  }
+  .footer-nav-list {
+    gap: 20rem;
+  }
+}
+
+/* 336px */
+@media (max-width: 21em) {
+  .header {
+    padding: 2.4rem 1.2rem;
+    margin-bottom: 4rem;
+  }
+  .heading-primary,
+  .heading-description,
+  .email,
+  .btn--primary,
+  .fylo-description {
+    width: 24rem;
+  }
+  .heading-primary {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .hero-img2 {
+    width: 28rem;
+    height: 24.1rem;
+    margin-bottom: 8.7rem;
+  }
+  .quote-container {
+    width: 24rem;
+    padding: 1.7rem 1rem;
+  }
+  .fylo-description {
+    width: 28rem;
+  }
+  .btn {
+    margin-bottom: 8rem;
+  }
+}
